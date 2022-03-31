@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   font-family: Arial;
 }
@@ -18,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 60vh;
-  margin: 0;
+  margin: 50px;
 }
 
 #game-board {
@@ -66,9 +68,4 @@ body {
     opacity: .5;
     transform: scale(0);
   }
-}
-
-form * {
-  display: block;
-  margin: 10px;
 }
